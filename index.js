@@ -1,7 +1,7 @@
 const http=require('http');
 const fs=require('fs');
 const url=require('url');
-http.createServer(function(req,res){
+//http.createServer(function(req,res){
 var q=url.parse(req.url,true);
 var filename="."+q.pathname;
 //console.log(filename);
@@ -19,4 +19,4 @@ return res.end();
 });
 
 
-}).listen();
+//}).listen();
