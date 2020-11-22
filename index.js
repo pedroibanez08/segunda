@@ -19,4 +19,4 @@ return res.end();
 });
 
 
-}).listen(https://pedroibanez08.github.io/segunda/);
+}).listen(./);
