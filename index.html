@@ -4,11 +4,11 @@
 <body>
 
 <div id="demo"></div>
-<button onclick="boton()">Boton</button>
+
 
 <script>
 
-	function boton(){
+	
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
@@ -18,7 +18,7 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open("GET", "animals.txt", true);
 xmlhttp.send();
-}
+
 
 </script>
 
