@@ -1,0 +1,23 @@
+
+
+{
+	"nombre":"misi",
+	"especie":"gato",
+	"gusta":["leche","salmon"],
+	"disgusta":["zanahorias","col"]
+},
+
+{
+	"nombre":"boby",
+	"especie":"perro",
+	"gusta":["pollo","terneras"],
+	"disgusta":["repollo","lentejas"]
+},
+{
+	"nombre":"uri",
+	"especie":"huron",
+	"gusta":["ratas","conejos"],
+	"disgusta":["lechuga","tomate"]
+}
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script src="animals.json"></script>
+<body>
+
+<div id="demo"></div>
+<button onclick="boton()">Boton</button>
+
+<script>
+
+	function boton(){
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = myObj[1].nombre;
+  }
+};
+xmlhttp.open("GET", "animals.txt", true);
+xmlhttp.send();
+}
+
+</script>
+
+</body>
+</html>
