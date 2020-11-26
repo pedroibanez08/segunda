@@ -1,5 +1,5 @@
 
-
+[
 {
 	"nombre":"misi",
 	"especie":"gato",
@@ -19,5 +19,5 @@
 	"gusta":["ratas","conejos"],
 	"disgusta":["lechuga","tomate"]
 }
-
+]
 
